@@ -13,6 +13,8 @@ import { DrinksPanelComponent } from './comps/panels/drinks-panel/drinks-panel.c
 import { SnacksPanelComponent } from './comps/panels/snacks-panel/snacks-panel.component';
 import { CookingPanelComponent } from './comps/panels/cooking-panel/cooking-panel.component';
 import { BasketPanelComponent } from './comps/panels/basket-panel/basket-panel.component';
+import {  HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { BasketPanelComponent } from './comps/panels/basket-panel/basket-panel.c
     BasketPanelComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
