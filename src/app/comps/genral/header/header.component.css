@@ -1,0 +1,12 @@
+.header{
+    height: 8%;
+    widows: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    margin: -1px;
+}
+img{
+    height: 25%;
+    width: 400px;
+}
